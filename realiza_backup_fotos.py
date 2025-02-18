@@ -4,9 +4,9 @@ import hashlib
 from datetime import datetime
 
 #### Diretórios
-dir_imagens = 'C:\\temp\\script_backup_fotos'
+dir_imagens = 'C:\\caminho\\para\\pasta\\origem'
 # O diretório de backup pode ser um dispositivo externo e mapeado no sistema
-dir_backup = 'C:\\temp\\script_backup_fotos\\backup'
+dir_backup = 'C:\\caminho\\para\\pasta\\backup'
 # Local de log no mesmo diretório do script
 dir_log = os.path.join(os.getcwd(), 'log')  
 
